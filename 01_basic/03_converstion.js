@@ -1,8 +1,8 @@
-let score = "hitesh"
+let score = "33"
 
 //console.log(typeof score);
 //console.log(typeof(score));
-
+8
 let valueInNumber = Number(score)
 //console.log(typeof valueInNumber);
 //console.log(valueInNumber);
