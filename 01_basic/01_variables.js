@@ -7,9 +7,9 @@ let accountState;
 
 
 
-// acccountId = 2 not Allowed
+// acccountId = 2 not Allowed  because const is not resign value 
 
-accountEmail = "malik@gmail.com"
+accountEmail = "malik@gmail.com" 
 accountPassword ="908766"
 accountCity = "Lahore"
 
