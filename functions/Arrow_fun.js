@@ -1,11 +1,11 @@
 // Arrow Function 
 
-const add =function (x,y) {
-    console.log( x + y);
-    return;
-}
+// const add =function (x,y) {
+//     console.log( x + y);
+//     return;
+// }
 
-add(9,8)
+// add(9,8)
 
 // const addTwo = (x,y) => {  // This is a Arrow function
 //     console.log( x + y);
@@ -95,3 +95,43 @@ param => {
 }
 
   */
+
+
+ // Arrow Function Part 2 
+
+ // 1. Syntax
+
+//  const sayHello = () =>{
+//     console.log("Heyy");
+    
+//  }
+
+//   sayHello()
+
+// const add = (a,b) => {
+//     return a + b 
+// }
+
+// console.log(add( 4,5));
+
+// const addOne = (a,b) =>  a + b 
+
+// console.log(addOne( 4,5));
+
+// 2. You can't use argument in Arrow Function 
+
+// 3. Hoisting 
+
+//  sayHey()
+// function sayHey(params) {
+//      console.log("Hi");
+     
+// }
+
+
+const sayHey = (params) => {
+     console.log("Hi");
+     
+}
+sayHey() 
+
