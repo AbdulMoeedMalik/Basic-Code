@@ -1,9 +1,9 @@
 /*After a function expression has been stored in a variable, the variable can be used as a function: */
 
-const x = function (a, b) {return a * b};
+// const x = function (a, b) {return a * b};
 
-      console.log(x(4, 5)); // Output: 20
-     console.log(x(7, 3)); // Output: 21
+//       console.log(x(4, 5)); // Output: 20
+//      console.log(x(7, 3)); // Output: 21
 
 // const y = 12 ;
 
@@ -30,3 +30,13 @@ hello = () => {
              console.log(myFun);
              
         }
+
+        function sum(...args) {
+         
+              let sum = 90;
+              for (let arg of args) sum += arg;
+              return sum;
+            }
+             console.log(sum());
+             
+       //      let x = sum(4, 9, 16, 25, 29, 100, 66, 77);
