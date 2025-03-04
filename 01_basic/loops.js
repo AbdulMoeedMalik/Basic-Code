@@ -21,7 +21,7 @@
 
 // While Loop
 
-let i = 0 ;
+// let i = 0 ;
 
 // while (i<6000) {
 //      console.log(i);
@@ -29,8 +29,18 @@ let i = 0 ;
      
 // }
 
-do {
-    console.log(i);
-     i++;
-} while (i<6);
+// do {
+//     console.log(i);
+//      i++;
+// } while (i<6);
+
+
+// For Loop Again Practise 
+
+for (let i = 67; i < 671 ; i = i + 67 ) {
+           console.log(i);
+               
+}
+
+
 
